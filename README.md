@@ -27,13 +27,18 @@ My submission for the total life take home test.
    npm install (should also install axios)
    ```
 
-**Create the database and run the backend API**:
+**Create the database (optional)**:
    ```bash
     cd backend
     py create_db.py
+   ```
+Database already exists and filled as an example so this step is not necessary.
+ 
+**Run the backend API**:
+   ```bash
     py api.py
    ```
-Make sure it is running (should be on http://localhost:5000/)
+Make sure it is running (should be on http://localhost:5000/).
 
 **Start the development server (/total-life-test/)**:
    ```bash
